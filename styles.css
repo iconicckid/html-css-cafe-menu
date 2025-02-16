@@ -43,3 +43,10 @@ hr{
     background-color: black;
     height: 2px;
 }
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px black;
+}
