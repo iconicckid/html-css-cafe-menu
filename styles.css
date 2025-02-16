@@ -30,8 +30,24 @@ h1, h2, p{
     background-color: darkgray;
     width: 30%;
     border-radius: 10px;
-    padding: 1%;
+    padding: 20px;
     text-align: center;
+}
+
+.drink p, .food p{
+    font-size: 18px
+}
+
+.testimony h2, .testimony p{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.testimony{
+    background-color: cadetblue;
+    width: 20%;
+    border-radius: 10px;;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
 .italic{
@@ -44,9 +60,47 @@ hr{
     height: 2px;
 }
 
-.item{
+.item {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-bottom: 2px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+}
+
+.testimonies {
+    display: flex;       /* Enables Flexbox */
+    justify-content: center;  /* Centers the items */
+    gap: 50px;           /* Adds space between them */
+    margin-top: 30px;
+}
+
+.inquiries{
+    background-color: chocolate;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center
+}
+
+.inquiries input {
+    width: 60%;       /* Adjust the width */
+    height: 20px;     /* Adjust the height */
+    font-size: 18px;  /* Make the text inside bigger */
+    padding: 10px;    /* Add spacing inside the input */
+    border: 2px solid black;  /* Optional: Add a border */
+    border-radius: 5px;  /* Optional: Round the corners */
+}
+
+footer p{
+    text-align: left;
 }
