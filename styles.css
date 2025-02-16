@@ -1,0 +1,45 @@
+body{
+    background-image: url("picture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.hero{
+    background-color: burlywood;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.menu-container {
+    display: flex;       /* Enables Flexbox */
+    justify-content: center;  /* Centers the items */
+    gap: 30px;           /* Adds space between them */
+    margin-top: 30px;
+}
+
+.drink, .food {
+    background-color: darkgray;
+    width: 30%;
+    border-radius: 10px;
+    padding: 1%;
+    text-align: center;
+}
+
+.italic{
+    font-style: italic
+}
+
+hr{
+    border-color: black;
+    background-color: black;
+    height: 2px;
+}
